@@ -52,7 +52,7 @@ namespace SpawnerUpgrade
 
         public void OnDestroy()
         {
-            cellDir.spawners.Remove(this.slimeNode.GetComponent<DirectedSlimeSpawner>());
+            cellDir.spawners.Remove(slimeNode.GetComponent<DirectedSlimeSpawner>());
         }
     }
 }
